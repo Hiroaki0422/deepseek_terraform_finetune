@@ -19,7 +19,7 @@ Note:
 
 ### After Fine Tuning ###:
 Prompt: Create a Terraform template with AWS Lambda function which reads S3\
-Base model output: \
+Fine tuned model output: \
 <img width="797" alt="image" src="https://github.com/user-attachments/assets/047f49df-6d2e-4a98-81d3-cf429ab0ecfb" /> \
 <img width="883" alt="image" src="https://github.com/user-attachments/assets/c3224e72-1279-4d69-8897-0e2ce467c571" /> \
 <br />
