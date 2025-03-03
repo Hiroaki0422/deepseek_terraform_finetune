@@ -2,13 +2,13 @@
 This project demonstrates how to fine-tune the innovative LLM model **DeepSeek** with open-sourced **terraform** codes and documentation so that it can effectively generate terraform codes. <br />
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/d991ebe5-21b9-4866-b3c4-ff1ca247a4b2" /> 
 
-# 1. Collect & Prepare Terraform Data for Fine Tuning
+## 1. Collect & Prepare Terraform Data for Fine Tuning
 Running [this notebook](https://github.com/Hiroaki0422/deepseek_terraform_finetune/blob/main/notebooks/terraform-data-collections.ipynb) will retrieve terraform code data from official documentation and prepare data for fine tuning 
 
-# 2. Fine-tuning 
+## 2. Fine-tuning 
 Training (fine tune) the base model `deepseek-coder-base-1.3B` and make it learn terraform codes from the output of the earlier. [this notebook](https://github.com/Hiroaki0422/deepseek_terraform_finetune/blob/main/notebooks/deepseek-terraform-fine-tune.ipynb) shows how to create a training pipeline.
 
-# 3. Result
+## 3. Result
 ### Before Fine Tuning ###:
 Prompt: Create a Terraform template with AWS Lambda function which reads S3\
 Base model output: \
